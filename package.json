@@ -1,0 +1,32 @@
+{
+    "name": "es6demo",
+    "version": "2.0.0",
+    "description": "This is Ecma6+ Demo.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "wdio": "wdio run wdio.conf.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rahmanumar21/gitdemo2.git"
+    },
+    "keywords": [
+        "Ecma6+",
+        "Demo"
+    ],
+    "author": "A. RAHMAN",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rahmanumar21/gitdemo2/issues"
+    },
+    "homepage": "https://github.com/rahmanumar21/gitdemo2#readme",
+    "devDependencies": {
+        "@wdio/cli": "^7.17.4",
+        "@wdio/local-runner": "^7.17.4",
+        "@wdio/mocha-framework": "^7.17.3",
+        "@wdio/spec-reporter": "^7.17.3",
+        "chromedriver": "^99.0.0",
+        "wdio-chromedriver-service": "^7.3.0"
+    }
+}
