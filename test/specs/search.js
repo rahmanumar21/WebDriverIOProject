@@ -12,4 +12,18 @@ describe('Ebay Search Page', () => {
                     expect(browser).toHaveTitle("Electronics, Cars, Fashion, Collectibles & More | eBay");
                     
           });
+
+          //2nd step
+          it('should search a product and verify the the product search', () => {
+
+                    // declare
+                    const formSearchInput = $("#gh-ac");
+
+                    // add value
+                    formSearchInput.addValue("Laptop");
+
+                    // verify form
+                    expect(formSearchInput).toHaveText("Laptop");
+                    
+          });
 });
