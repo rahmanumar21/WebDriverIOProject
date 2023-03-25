@@ -1,2 +1,1 @@
-# gitdemo2
-this is git demo2
+This is for WebdriverI/O, Mocha, Chai, Allure, Git, GitHub, Jenkins.
